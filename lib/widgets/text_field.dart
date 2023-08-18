@@ -5,7 +5,7 @@ import 'package:wsn/utils/constants.dart';
 TextField input({ required String placeholder, required TextEditingController controller, required bool enabled }) {
   return TextField(
     controller: controller,
-    maxLength: 10,
+    maxLength: 13,
     keyboardType: TextInputType.phone,
     decoration: InputDecoration(
       hintText: placeholder,
@@ -36,7 +36,7 @@ TextField input({ required String placeholder, required TextEditingController co
 
     style: TextStyle(
       fontSize: textL,
-      fontWeight: FontWeight.w600,
+      fontWeight: FontWeight.w500,
       color: appBrand
     ),
   );

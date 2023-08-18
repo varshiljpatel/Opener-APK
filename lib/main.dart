@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:wsn/screens/main_screen.dart';
 import 'package:wsn/screens/splash_screen.dart';
 import 'package:wsn/utils/app_theme.dart';
 
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: "Without saving number!",
       debugShowCheckedModeBanner: false,
       theme: appTheme,
-      home: const MainScreen(),
+      home: const SplashScreen(),
     );
   }
 }
